@@ -1,0 +1,22 @@
+{
+  "name": "mane-bazar",
+  "version": "1.0.0",
+  "description": "**A production-ready, full-stack grocery e-commerce web application modeled after local Indian kiranas.** Built with MERN stack, Razorpay payments, PDF invoice generation, and comprehensive admin dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server run test",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^11.7.1",
+    "husky": "^9.1.7",
+    "secretlint": "^11.6.0"
+  }
+}
